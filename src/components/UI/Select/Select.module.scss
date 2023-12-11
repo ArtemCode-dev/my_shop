@@ -1,0 +1,49 @@
+@import '@/src/app/vars.scss';
+
+.selected {
+    border-radius: 3px;
+    padding: 10px;
+    background-color: $grey-color-second;
+}
+.notselected {
+    border-radius: 3px;
+    padding: 10px;
+}
+.select {
+    width: 70px;
+    position: relative;
+    user-select: none;
+    //margin: 0;
+    cursor: pointer;
+    &__title {
+        justify-content: space-between;
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        //justify-content: center;
+    }
+    &__body {
+        display: none;
+        &_active {
+            top: 20px;
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            background-color: white;
+            border-radius: 3px;
+            color: black;
+            user-select: none;
+            box-shadow: 0px 0px 20px -10px;
+        }
+    }
+}
+
+.svg {
+    margin-top: 3px;
+    //transform: rotate(0deg);
+    &_rotate {
+        //margin-top: 2px;
+        transform: scale(-1, -1);
+    }
+}

@@ -1,0 +1,34 @@
+@import '@/src/app/vars.scss';
+
+.button {
+    display: flex;
+    align-items: center;
+    padding: 15px 32px;
+    border-radius: 4px;
+    outline: none;
+    &_origin {
+        border: 1px solid $green-color-first;
+        color: $green-color-first;
+        cursor: pointer;
+
+        &:hover {
+            border: 1px solid $green-color-first;
+            color: white;
+            background-color: $green-color-first;
+            transition: .5s;
+        }
+    }
+    &_dark {
+        border: 1px solid $green-color-first;
+        color: white;
+        background-color: $green-color-first;
+        cursor: pointer;
+
+        &:hover {
+            border: 1px solid $green-color-third;
+            background-color: $green-color-third;
+            cursor: pointer;
+            transition: .5s;
+        }
+    }
+}

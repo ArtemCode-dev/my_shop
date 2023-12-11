@@ -1,0 +1,25 @@
+@import '@/src/app/vars.scss';
+
+.text {
+    margin: 0;
+    outline: none;
+
+    &_h1 {
+        font-size: $h1-size;
+    }
+    &_h2 {
+        font-size: $h2-size;
+    }
+    &_p1 {
+        font-size: $p1-size;
+    }
+    &_p2 {
+        font-size: $p2-size;
+    }
+    &_p3 {
+        font-size: $p3-size;
+    }
+    &_p4 {
+        font-size: $p4-size;
+    }
+}

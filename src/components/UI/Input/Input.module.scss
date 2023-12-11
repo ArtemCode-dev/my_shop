@@ -1,0 +1,25 @@
+@import '@/src/app/vars.scss';
+
+.input {
+    //margin: 0;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 11px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid $grey-color-six;
+    & input {
+        width: 100%;
+        outline: none;
+        border-color: none;
+        border: none;
+    }
+
+    &_text {
+        & img {
+            cursor: pointer;
+        }
+    }
+}
