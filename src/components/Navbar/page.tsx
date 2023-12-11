@@ -2,17 +2,12 @@ import React from 'react'
 import s from './style.module.scss'
 import Text from '../UI/Text/Text'
 
-const Header = () => {
+const Navbar = () => {
   return (
-    <header className={s.header}>
-      <div className={s.topbar}>
-        <Text size='p2'>topbar</Text>
-      </div>
-      <div className={s.navbar}>
-        navbar
-      </div>
-    </header>
+    <div>
+      Navbar
+    </div>
   )
 }
 
-export default Header
+export default Navbar
