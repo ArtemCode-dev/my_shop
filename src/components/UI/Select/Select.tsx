@@ -34,7 +34,7 @@ const Select: React.FC<IProps> = ({
             
         }
     )
-        //дописать функционал с картинками
+    //дописать функционал с картинками
     const [isOpen, setIsOpen] = useState(false);
     const [selected, setSelected] = useState<number>(title.id)
     const ref = useOnclickOutside((e: any) => {
