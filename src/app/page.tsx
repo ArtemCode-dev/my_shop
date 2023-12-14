@@ -10,7 +10,6 @@ export default function Home() {
     <main>
       <Container>
         Main
-        <Input type="text"></Input>
       </Container>
     </main>
   )

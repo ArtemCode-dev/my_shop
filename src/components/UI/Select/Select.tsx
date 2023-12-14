@@ -35,7 +35,7 @@ const Select: React.FC<IProps> = ({
         }
     )
     //дописать функционал с картинками
-    const [isOpen, setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState(true);
     const [selected, setSelected] = useState<number>(title.id)
     const ref = useOnclickOutside((e: any) => {
         if(e.target.classList && e.target.classList.length > 0 && e.target.classList[0] === s.select) return
