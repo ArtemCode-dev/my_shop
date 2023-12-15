@@ -6,6 +6,7 @@ interface IProps {
     children: React.ReactNode;
     className?: string;
     size: string;
+    color?: string;
     error?: boolean;
     bold?: boolean;
 }
@@ -14,6 +15,7 @@ const Text: React.FC<IProps> = ({
     className,
     children,
     size = 'p3',
+    color = 'black',
     error = false,
     bold = false,
 }) =>  {
@@ -36,22 +38,22 @@ const Text: React.FC<IProps> = ({
     switch (size) {
         case 'h1' :
             return (
-                <h1 className={cn}>{children}</h1>
+                <h1 style={{color: color}} className={cn}>{children}</h1>
             )
         case 'h2' :
             return (
-                <h2 className={cn}>{children}</h2>
+                <h2 style={{color: color}} className={cn}>{children}</h2>
             )
         case 'h3' :
             return (
-                <h3 className={cn}>{children}</h3>
+                <h3 style={{color: color}} className={cn}>{children}</h3>
             )
         case 'p1' :
         case 'p2' :
         case 'p3' :
         case 'p4' :
             return (
-                <p className={cn}>{children}</p>
+                <p style={{color: color}} className={cn}>{children}</p>
             )
 
     }

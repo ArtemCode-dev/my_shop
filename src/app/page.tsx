@@ -1,16 +1,15 @@
-'use client'
+import type { Metadata } from 'next'
+import Swiper from '../components/Home/Swiper/page'
 
-import Input from "@/src/components/UI/Input/Input";
-import Container from "../components/UI/Container/Container";
-import Button from "../components/UI/Button/Button";
-
+export const metadata: Metadata = {
+  title: 'My shop - Главная',
+  description: 'Home page',
+}
 
 export default function Home() {
   return (
     <main>
-      <Container>
-        Main
-      </Container>
+      <Swiper />
     </main>
   )
 }
