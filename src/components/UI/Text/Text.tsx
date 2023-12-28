@@ -1,3 +1,5 @@
+'use client'
+
 import React from 'react'
 import s from './Text.module.scss'
 import classNames from 'classnames' 

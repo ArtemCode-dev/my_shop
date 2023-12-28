@@ -1,0 +1,15 @@
+.dots {
+    &__slider {
+        z-index: 2;
+        position: absolute;
+        bottom: 180px;
+        width: 100%;
+        & ul {
+            width: 100%;
+            display:flex
+        }
+        & li {
+            list-style-type: none;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.arrow {
+    width: 48px;
+    height: 48px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 32px;
+    cursor: pointer;
+    top: calc(50% - 48px);
+    z-index: 2;
+}
+
+.prev {
+    cursor: pointer;
+    position: absolute;
+    left: 32px;
+    top: calc(50% - 48px);
+    z-index: 2;
+}
