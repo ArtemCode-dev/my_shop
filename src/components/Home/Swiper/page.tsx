@@ -22,10 +22,9 @@ const Swiper = () => {
             <img src={item.img} alt="img" />
             <Container>
               <div className={s.slide__content}>
-                
-                <Text size='h1'>Menswear 2020</Text>
                 <Text size='p2'>New collection</Text>
-                <div>
+                <Text size='h1'>Menswear 2020</Text>
+                <div className={s.slide__content__buttons}>
                   <Button type='dark' onClick={() => console.log('1')}>Shop sale</Button>
                   <Button type='origin' onClick={() => console.log('1')}>Shop the menswear</Button>
                 </div>

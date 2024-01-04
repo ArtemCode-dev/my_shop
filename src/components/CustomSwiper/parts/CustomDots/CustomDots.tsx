@@ -7,10 +7,11 @@ import Container from '@/src/components/UI/Container/Container';
 interface ICustomDotsProps {
 	type: string,
 	onClick?: () => void,
-  dots: any
+  dots: any,
+  dotsType: number,
 }
 
-const CustomDots = ({type='slider', onClick, dots}:ICustomDotsProps) => {
+const CustomDots = ({dotsType, type='slider', onClick, dots}:ICustomDotsProps) => {
 
   switch (type) {
     case 'slider' :

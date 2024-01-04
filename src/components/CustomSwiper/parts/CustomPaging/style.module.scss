@@ -1,0 +1,24 @@
+@import '@/src/app/vars.scss';
+
+.paging {
+    width: 174px;
+    font-size: 18px;
+    color: $grey-color-fifth;
+    border-bottom: 2px solid $grey-color-fifth;
+    padding-bottom: 12px;
+    margin-right: 4px;
+    cursor: pointer;
+    opacity: 0.6;
+    font-weight: 700;
+}
+
+.active {
+    width: 174px;
+    font-size: 18px;
+    color: $grey-color-fifth;
+    border-bottom: 2px solid $grey-color-fifth;
+    padding-bottom: 12px;
+    margin-right: 4px;
+    cursor: pointer;
+    font-weight: 700;
+}
